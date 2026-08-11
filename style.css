@@ -231,7 +231,7 @@
     @keyframes brkr1 {
         0% {
             opacity: 0;
-            transform: translateX(-1100px);
+            transform: translateX(-2200px);
         }
         100% {
             opacity: 1;
