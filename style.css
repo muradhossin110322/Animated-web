@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 680px){
+    body {
+        background-color: #c8c8c8;
+    }
+    .header1 {
+        color: #0e3695;
+        font-size: 0.8;
+        font-style: italic;
+        animation: hdr1 0.5s ease-in 1s forwards;
+        opacity: 0;
+    }
+    @keyframes hdr1 {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .broker1 {
+        color: black;
+        border: 1px solid;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        opacity: 0;
+        animation: brkr1 0.8s ease-in 0.2s forwards;
+    }
+    @keyframes brkr1 {
+        0% {
+            opacity: 0;
+            transform: translateY(-250px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .homebtn1 {
+        background-color: #648ded;
+        padding: 5px;
+        width: 59px;
+        border-radius: 21px;
+        position: absolute;
+        top: 28px;
+        right: 110px;
+        animation: btn1 0.8s ease-in 0.8s forwards;
+        opacity: 0;
+        text-decoration: none;
+        font-weight: 700;
+        border: 2px solid;
+        border-color: rgb(3, 3, 3);
+    }
+    .homebtn1:hover {
+        width: 63px;
+        padding: 6px;
+        background: linear-gradient(to right, rgb(251, 10, 243), rgb(27, 163, 247));
+        box-shadow: 0 8px 15px rgb(67, 24, 255), 0 8px 12px rgb(218, 33, 238);
+        border: none;
+    }
+    @keyframes btn1 {
+        0% {
+            opacity: 0;
+            transform: translateY(250px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .aboutbtn1 {
+        background-color: #648ded;
+        padding: 5px;
+        width: 59px;
+        border-radius: 19px;
+        position: absolute;
+        top: 28px;
+        right: 45px;
+        animation: btn2 0.5s ease-in 1.2s forwards;
+        opacity: 0;
+        text-decoration: none;
+        font-weight: 700;
+        border: 2px solid;
+        border-color: rgb(0, 0, 0);
+    }
+    .aboutbtn1:hover {
+        width: 63px;
+        padding: 6px;
+        background: linear-gradient(to right, rgb(251, 10, 243), rgb(27, 163, 247));
+        box-shadow: 0 8px 15px rgb(67, 24, 255), 0 8px 12px rgb(218, 33, 238);
+        border: none;
+    }
+    @keyframes btn2 {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .parag1 {
+        color: #24448f;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        animation: parag1 0.5s ease-in 1.6s forwards;
+        opacity: 0;
+    }
+    @keyframes parag1 {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .photoa img {
+        width: 105px;
+        height: 105px;
+        border-radius: 100%;
+        border: 2px solid;
+        border-color: aqua;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        background: linear-gradient(to right, rgb(244, 113, 113), rgb(5, 0, 248));
+        opacity: 0;
+        animation: photo1 0.5s ease-in 1.99s forwards;
+    }
+    @keyframes photo1 {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .about1 {
+        color: #3955b2;
+        opacity: 0;
+        animation: abut 0.5s ease-in 2.4s forwards;
+    }
+    @keyframes abut {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .broker2 {
+        color: black;
+        border: 1px solid;
+        position: relative;
+        bottom: 20px;
+        opacity: 0;
+        animation: brkr2 0.5s ease-in 2.7s forwards;
+    }
+    @keyframes brkr2 {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .myabout {
+        color: #24448f;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 550;
+        position: relative;
+        bottom: 20px;
+        opacity: 0;
+        animation: pg1 0.5s ease-in 2.9s forwards;
+    }
+    @keyframes pg1 {
+        0% {
+            opacity: 0;
+            transform: translateY(150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+}
+@media screen and (min-width: 680px){
+    body {
+        background-color: #000000;
+    }
+    .header1 {
+        color: #00ff1e;
+        font-size: 0.8;
+        font-style: italic;
+        animation: hdr1 0.5s ease-in 1s forwards;
+        opacity: 0;
+    }
+    @keyframes hdr1 {
+        0% {
+            opacity: 0;
+            transform: translateY(-250px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .broker1 {
+        color: rgb(5, 230, 255);
+        border: 1px solid;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        opacity: 0;
+        animation: brkr1 0.8s ease-in 0.2s forwards;
+    }
+    @keyframes brkr1 {
+        0% {
+            opacity: 0;
+            transform: translateX(-1100px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .homebtn1 {
+        background-color: #648ded;
+        padding: 5px;
+        width: 59px;
+        border-radius: 21px;
+        position: absolute;
+        top: 28px;
+        right: 110px;
+        animation: btn1 0.8s ease-in 0.8s forwards;
+        opacity: 0;
+        text-decoration: none;
+        font-weight: 700;
+        border: 2px solid;
+        border-color: rgb(3, 3, 3);
+    }
+    .homebtn1:hover {
+        width: 63px;
+        padding: 6px;
+        background: linear-gradient(to right, rgb(251, 10, 243), rgb(27, 163, 247));
+        box-shadow: 0 8px 15px rgb(67, 24, 255), 0 8px 12px rgb(218, 33, 238);
+        border: none;
+    }
+    @keyframes btn1 {
+        0% {
+            opacity: 0;
+            transform: translateY(250px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .aboutbtn1 {
+        background-color: #648ded;
+        padding: 5px;
+        width: 59px;
+        border-radius: 19px;
+        position: absolute;
+        top: 28px;
+        right: 45px;
+        animation: btn2 1s ease-in 1.2s forwards;
+        opacity: 0;
+        text-decoration: none;
+        font-weight: 700;
+        border: 2px solid;
+        border-color: rgb(0, 0, 0);
+    }
+    .aboutbtn1:hover {
+        width: 63px;
+        padding: 6px;
+        background: linear-gradient(to right, rgb(251, 10, 243), rgb(27, 163, 247));
+        box-shadow: 0 8px 15px rgb(67, 24, 255), 0 8px 12px rgb(218, 33, 238);
+        border: none;
+    }
+    @keyframes btn2 {
+        0% {
+            opacity: 0;
+            transform: translateX(-400px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .parag1 {
+        color: #00ff1e;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        animation: parag1 0.5s ease-in 1.6s forwards;
+        opacity: 0;
+    }
+    @keyframes parag1 {
+        0% {
+            opacity: 0;
+            transform: translateX(310px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .photoa img {
+        width: 105px;
+        height: 105px;
+        border-radius: 100%;
+        border: 2px solid;
+        border-color: #00ff1e;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        background: linear-gradient(to right, rgb(244, 113, 113), rgb(5, 0, 248));
+        opacity: 0;
+        animation: photo1 0.5s ease-in 1.99s forwards;
+    }
+    @keyframes photo1 {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .about1 {
+        color: #00ff1e;
+        opacity: 0;
+        animation: abut 0.5s ease-in 2.4s forwards;
+    }
+    @keyframes abut {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .broker2 {
+        color: rgb(5, 230, 255);
+        border: 1px solid;
+        position: relative;
+        bottom: 20px;
+        opacity: 0;
+        animation: brkr2 0.5s ease-in 2.7s forwards;
+    }
+    @keyframes brkr2 {
+        0% {
+            opacity: 0;
+            transform: translateY(-150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    .myabout {
+        color: #00ff1e;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 550;
+        position: relative;
+        bottom: 20px;
+        opacity: 0;
+        animation: pg1 0.5s ease-in 2.9s forwards;
+    }
+    @keyframes pg1 {
+        0% {
+            opacity: 0;
+            transform: translateY(150px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+}
